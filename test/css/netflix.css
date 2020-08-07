@@ -1,0 +1,26 @@
+#netflix-logo {
+	float: none;
+	width: 90%;
+}
+
+@media only screen and (min-width: 768px){
+	#netflix-logo {
+		float: right;
+		width: 50%;
+		margin: 15px;
+	}
+}
+
+@media only screen and (min-width: 1000px) {
+	ol {
+		width: 15vw;
+	}
+
+	#content-list {
+		width: 65vw
+	}
+
+	#netflix-logo {
+		width: 40%;
+		margin: 10px 5px 10px 10px;
+	}

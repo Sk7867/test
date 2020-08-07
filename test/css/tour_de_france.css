@@ -1,0 +1,21 @@
+#tour-de-france-logo, #tour-de-france-img {
+	float: none;
+	width: 90%;
+}
+
+@media only screen and (min-width: 768px){
+	#tour-de-france-logo, #tour-de-france-img {
+		float: right;
+		width: 50%;
+		margin: 15px;
+		background: transparent;
+	}
+
+}
+
+@media only screen and (min-width: 1000px) {
+
+	#tour-de-france-logo, #tour-de-france-img {
+		width: 40%;
+	}
+}

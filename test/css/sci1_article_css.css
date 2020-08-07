@@ -1,0 +1,114 @@
+html {
+    scroll-behavior: smooth;
+}
+
+h2 {
+	float: none;
+	font-size: 20px;
+}
+
+.accordion {
+    padding: 0;
+    margin: 0 auto;
+    width: 100%;
+    font-family: "PT Sans" sans-serif;
+    background: #cdcdcd;
+}
+
+.accordion:hover .accordion-item:hover .accordion-item-content,
+.accordion .accordion-item-default .accordion-item-content {
+    height: 165vh;
+    background: #000000;
+}
+
+.accordion-item-content,
+.accordion:hover .accordion-item-content {
+    height: 0px;
+    overflow: hidden;
+    transition: height 0.75s ease-in-out;
+}
+
+.accordion-item {
+	border-bottom: 1px solid;
+}
+
+.article-image{
+	margin: 0px auto 10px;
+	width: 100%;
+}
+
+p {
+	margin: 10px;
+}
+
+.image-left, .image-right {
+	float: none;
+} 
+
+
+@media only screen and (min-width: 768px){
+	h2{
+		font-size: 30px;
+	}
+	.accordion {
+		margin: 0 auto;
+		width: 60%;
+	}
+
+	.accordion:hover .accordion-item:hover .accordion-item-content,
+.accordion .accordion-item-default .accordion-item-content {
+    height: 100vh;
+    background: #000000;
+}
+
+.accordion-item-content,
+.accordion:hover .accordion-item-content {
+    height: 0px;
+    overflow: hidden;
+    transition: height 0.75s ease-in-out;
+}
+
+	.article-image{
+	margin: 5px 15px 10px 0;
+	width: 40%;
+	}
+
+	.image-left {
+	float: left;
+	} 
+
+	.image-right {
+	float: right;
+	}
+}
+
+@media only screen and (min-width: 1000px) {
+	.accordion {
+		margin: 0 auto;
+		width: 70%;
+	}
+
+	.accordion:hover .accordion-item:hover .accordion-item-content,
+.accordion .accordion-item-default .accordion-item-content {
+    height: 75vh;
+    background: #000000;
+}
+
+.accordion-item-content,
+.accordion:hover .accordion-item-content {
+    height: 0px;
+    overflow: hidden;
+    transition: height 0.75s ease-in-out;
+}
+
+	
+}
+
+
+
+
+
+
+
+
+

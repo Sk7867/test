@@ -1,0 +1,23 @@
+h1 {
+	font-size: 33px;
+}
+
+p{
+	color: #000000;
+	margin: 10px;
+}
+
+@media only screen and (min-width: 768px) {
+	h1{
+		font-size: 43px;
+	}
+
+	.article-image {
+		width: 50%;
+	}
+
+@media only screen and (min-width: 1000px) {
+	h1{
+		font-size: 43px;
+	}
+}	

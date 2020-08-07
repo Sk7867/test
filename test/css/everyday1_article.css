@@ -1,0 +1,29 @@
+.accordion:hover .accordion-item:hover .accordion-item-content,
+.accordion .accordion-item-default .accordion-item-content {
+    height: 198vh;
+}
+
+@media only screen and (min-width: 768px){
+	.accordion:hover .accordion-item:hover .accordion-item-content,
+	.accordion .accordion-item-default .accordion-item-content {
+    height: 115vh;
+    background: #000000;
+}
+
+@media only screen and (min-width: 1000px) {
+	.accordion:hover .accordion-item:hover .accordion-item-content,
+	.accordion .accordion-item-default .accordion-item-content {
+    height: 85vh;
+    background: #000000;
+}
+	
+}
+
+
+
+
+
+
+
+
+

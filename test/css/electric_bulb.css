@@ -1,0 +1,19 @@
+#bulb {
+	float: none;
+	width: 90%;
+}
+
+@media only screen and (min-width: 768px){
+	#bulb {
+		float: right;
+		width: 50%;
+		margin: 15px;
+		background: transparent;
+	}
+}
+
+@media only screen and (min-width: 1000px) {
+
+	#bulb {
+		width: 40%;
+	}
