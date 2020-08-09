@@ -17,7 +17,7 @@ h2 {
 
 .accordion:hover .accordion-item:hover .accordion-item-content,
 .accordion .accordion-item-default .accordion-item-content {
-    height: 32vh;
+    height: fit-content;
     background: #000000;
 }
 
