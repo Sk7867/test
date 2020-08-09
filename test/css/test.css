@@ -11,11 +11,29 @@ header {
     justify-content: space-between;
     align-items: center;
     flex-direction: column;
+    z-index: 1000;
 }
+
+.sticky {
+  position: fixed;
+  background: #ffffff;
+  width: 100%;
+}
+
 
 .logo {
     width: 72%;
     margin-bottom: 10px;
+    text-align: center;
+}
+
+.logo-image {
+    width: 72%;
+    transition: width 0.2s ease-in-out;
+}
+
+.logo-image-scroll {
+    width: 52%;
 }
 
 .category-links {
@@ -168,7 +186,7 @@ p {
     border: 1px solid;
     color: #000000;
     float: right;
-    margin: 0 5px 0 0;
+    margin: 20px 5px 0 0;
     transition: 0.5s ease-in-out;
 }
 
@@ -265,9 +283,19 @@ footer p {
     }
 
     .logo {
-    width: 20%;
+    width: 40%;
     margin: 5px;
-}
+    text-align: left;
+    }
+
+    .logo-image {
+        width: 40%;
+        transition: width 0.2s ease-in-out;
+    }
+
+    .logo-image-scroll {
+        width: 30%;
+    }
 
     h1 {
         font-size: 60px;
@@ -294,17 +322,15 @@ footer p {
     padding: 5px;
     font-size: 100%;
     color: #adaca6;
+    transition: .4s ease-in-out;
     }
 
     .category-links div:hover {
-    	color: #000000;
-    border-radius: 15px;
-    height: fit-content;
-    cursor: pointer;
+    color: #000000;
     }
 
     .sign-up {
-        width: 55px
+        width: 55px;
     }
 
     .swiper-button-next, .swiper-button-prev {
