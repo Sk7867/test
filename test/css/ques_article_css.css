@@ -17,7 +17,7 @@ h2 {
 
 .accordion:hover .accordion-item:hover .accordion-item-content,
 .accordion .accordion-item-default .accordion-item-content {
-    height: 165vh;
+    height: fit-content;
     background: #000000;
 }
 
@@ -55,19 +55,6 @@ p {
 		width: 60%;
 	}
 
-	.accordion:hover .accordion-item:hover .accordion-item-content,
-.accordion .accordion-item-default .accordion-item-content {
-    height: 100vh;
-    background: #000000;
-}
-
-.accordion-item-content,
-.accordion:hover .accordion-item-content {
-    height: 0px;
-    overflow: hidden;
-    transition: height 0.75s ease-in-out;
-}
-
 	.article-image{
 	margin: 5px 15px 10px 0;
 	width: 40%;
@@ -87,20 +74,6 @@ p {
 		margin: 0 auto;
 		width: 70%;
 	}
-
-	.accordion:hover .accordion-item:hover .accordion-item-content,
-.accordion .accordion-item-default .accordion-item-content {
-    height: 75vh;
-    background: #000000;
-}
-
-.accordion-item-content,
-.accordion:hover .accordion-item-content {
-    height: 0px;
-    overflow: hidden;
-    transition: height 0.75s ease-in-out;
-}
-
 	
 }
 
