@@ -42,6 +42,7 @@ h2 {
 
 p {
 	margin: 10px;
+	color: #ffffff;
 }
 
 .image-left, .image-right {
@@ -58,7 +59,7 @@ p {
 		width: 60%;
 	}
 
-	.article-image{
+	.article-image {
 	margin: 5px 15px 10px 0;
 	width: 40%;
 	}
@@ -77,14 +78,9 @@ p {
 		margin: 0 auto;
 		width: 70%;
 	}
+
+	.article-image {
+		width: 18%;
+	}
 	
 }
-
-
-
-
-
-
-
-
-
