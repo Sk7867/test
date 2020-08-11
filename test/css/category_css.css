@@ -12,6 +12,7 @@ p {
 .grid-container{
 	display: grid;
 	grid-template-columns: repeat(1, 95vw);
+	margin-bottom: 20px;
 }
 
 h2 {
@@ -21,6 +22,11 @@ h2 {
 
 .accordian {
 	padding: 0;
+	margin: 20px auto;
+}
+
+.accordian:hover {
+	margin: 30px auto;
 }
 
 figure {
@@ -50,15 +56,6 @@ figure {
 		grid-template-columns: repeat(3, 250px);
 		justify-content: center;
 
-	}
-
-	.accordian {
-		width: 300px;
-		margin: 20px 5px 0;
-	}
-
-	.accordian:hover {
-		margin: 20px 10px 5px;
 	}
 }
 
