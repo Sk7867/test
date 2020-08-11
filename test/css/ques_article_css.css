@@ -11,7 +11,7 @@ h2 {
 	font-size: 20px;
 }
 
-.accordion {
+.container {
     padding: 0;
     margin: 0 auto;
     width: 100%;
@@ -19,21 +19,18 @@ h2 {
     background: #cdcdcd;
 }
 
-.accordion:hover .accordion-item:hover .accordion-item-content,
-.accordion .accordion-item-default .accordion-item-content {
-    height: fit-content;
-    background: #000000;
-}
-
-.accordion-item-content,
-.accordion:hover .accordion-item-content {
-    height: 0px;
-    overflow: hidden;
-    transition: height 0.75s ease-in-out;
-}
-
-.accordion-item {
+Q
+.question-space {
+        background: #cdcdcd;
+        width:100%;
+        height: fit-content;
 	border-bottom: 1px solid;
+}
+
+.answer-space {
+        background: #000000;
+        width: 100%;
+        height: fit-content;
 }
 
 .article-image{
@@ -52,9 +49,9 @@ p {
 
 @media only screen and (min-width: 768px){
 	h2{
-		font-size: 30px;
+		font-size: 20px;
 	}
-	.accordion {
+	.container {
 		margin: 0 auto;
 		width: 60%;
 	}
@@ -74,7 +71,7 @@ p {
 }
 
 @media only screen and (min-width: 1000px) {
-	.accordion {
+	.container {
 		margin: 0 auto;
 		width: 70%;
 	}
