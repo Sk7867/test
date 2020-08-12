@@ -148,6 +148,7 @@ h2 {
     transition: all 0.3s ease-in-out;
     background: #d9d9d9;   
     border-radius: 20px;
+    z-index: 1;
 }
 
 .accordian-content {
@@ -162,6 +163,7 @@ h2 {
     transform: scale(1.1);
     text-align: center;
     margin: 20px 30px 30px;
+    z-index: 100;
 }
 
 .accordian:hover .accordian-content {
@@ -175,7 +177,8 @@ h2 {
 }
 
 .image{
-    width: 50%;
+    height: 115px
+    width: 100%;
 }
 
 h3 {
