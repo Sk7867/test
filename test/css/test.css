@@ -129,6 +129,8 @@ main {
     flex-direction: column; /*vertical alignment for mobile devices*/
     clear: both;
     align-items: center;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+    padding-bottom: 50px;
 }
 
 h2 {
@@ -136,6 +138,7 @@ h2 {
     padding: 10px;
     margin: 5px;
     float: left;
+    margin-bottom: 20px;
 }
 
 .accordian {
@@ -179,6 +182,7 @@ h2 {
 .image{
     height: 115px;
     width: 100%;
+    border-radius: 10px;
 }
 
 h3 {
