@@ -44,6 +44,12 @@ figure {
 }
 
 @media only screen and (min-width: 768px){
+	.current {
+		color: #ffffff;
+		/*background: #000000;*/
+		border-bottom: 1px solid #000000;
+	}
+
 	.full {
 		width: 100%;
 		margin: 0 auto;
