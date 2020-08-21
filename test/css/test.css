@@ -87,7 +87,7 @@ main {
 
     /*newspaper backhground image*/
     .news-background {
-        background-image: url("../img/news-background.jpg");
+        background-image: url("../img/science-background.png");
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
